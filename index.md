@@ -1,17 +1,14 @@
 ---
-layout: home
-title: FPGA VGA Driver Project
-tags: fpga vga verilog
-categories: demo
+FPGA VGA Driver Project
 ---
 
-Add a short welcome message or introduction here. Aim to get the viewer interested in what follows! Guideline: 1 or 2 sentences. 
-
-I am adding a test sentence here at 13:24 on 03/12/24.
+My name is Chloe Beirne, and this is my VGA Driver Project. For my project, I wanted to make the Swedish flag, but it didn't work after a lot of work and research, so I decided to create an easier image, of the Italian flag.
 
 ## **Template VGA Design**
 ### **Project Set-Up**
-Summarise the project set-up and design flow. Include a screenshot of your own set-up, for example see the image of my Project Summary window below. Guideline 1 short paragraph.
+The template design was an easy to follow demo on how to add the VGA signal generation. It showed vertical stripes of a series of seven colours.
+
+I set up my project in Vivado, and I made sure that all of my design files were added and ready to simulate, synthesis and implement. I used all of the parameters provided from Vivado to check the design flow, resource usage and timing for the project. Below, i will show an image of my project summary showing the setup and design flow.
 
 <img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/VGAPrjSum.png">
 ### **Template Code**
