@@ -10,9 +10,12 @@ The template design was an easy to follow demo on how to add the VGA signal gene
 
 I set up my project in Vivado, and I made sure that all of my design files were added and ready to simulate, synthesis and implement. I used all of the parameters provided from Vivado to check the design flow, resource usage and timing for the project. Below, i will show an image of my project summary showing the setup and design flow.
 
-<img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/VGAPrjSum.png">
+<img src= "https://github.com/chloebeirne/Soc-Final-Project/blob/main/docs/assets/images/photo7.png">
+
 ### **Template Code**
-Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
+The key modules in this project were:
+- **VGASync.v:** This module makes the horizontal and vertical sync signals, this tracks      the current position of each pixel that's being displayed on screen, we can then ensure     that the display is being updated row by row, and frame by frame by using both a            horizontal and ertical count.
+- **VGAColourStripes.v:** 
 ### **Simulation**
 Explain the simulation process. Reference any important details, include a well-selected screenshot of the simulation. Guideline: 1/2 short paragraphs.
 ### **Synthesis**
