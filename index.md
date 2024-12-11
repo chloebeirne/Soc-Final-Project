@@ -48,22 +48,7 @@ Included in this, is the useful and helpful insights the synthesis gave me into 
 
 ### **Demonstration**
 After finishing all of the previous steps, i can finally generate the design into my board to use the VGA driver to display it onto a monitor. What I saw on my screen was the Italian flag. This showed me that my code worked and there was no bugs to fix.
+<img src=https://github.com/chloebeirne/Soc-Final-Project/blob/main/docs/assets/images/italy.jpeg>
 
-
-## **More Markdown Basics**
-This is a paragraph. Add an empty line to start a new paragraph.
-
-Font can be emphasised as *Italic* or **Bold**.
-
-Code can be highlighted by using `backticks`.
-
-Hyperlinks look like this: [GitHub Help](https://help.github.com/).
-
-A bullet list can be rendered as follows:
-- vectors
-- algorithms
-- iterators
-
-Images can be added by uploading them to the repository in a /docs/assets/images folder, and then rendering using HTML via githubusercontent.com as shown in the example below.
-
+### **Hierarchy**
 <img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/VGAPrjSrcs.png">
