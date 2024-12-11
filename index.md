@@ -27,12 +27,12 @@ After synthesis, we had implementation where it programmed the design onto the F
 
 ### **Demonstration**
 Once the board was programmed and connected to the VGA port on the monitor, the screen displayed the coloured stripes.
-
+<img src= https://github.com/chloebeirne/Soc-Final-Project/blob/main/docs/assets/images/TempDisplay.png>
 
 ## **My VGA Design Edit**
-Introduce your own design idea. Consider how complex/achievabble this might be or otherwise. Reference any research you do online (use hyperlinks).
 ### **Code Adaptation**
-Briefly show how you changed the template code to display a different image. Demonstrate your understanding. Guideline: 1-2 short paragraphs.
+The verilog code below is what I adapted to alter the demo template to generate my own personal code, where I just wanted it to generate a simplistic Italian flag. I wanted to show some of my failed tests below:
+
 ### **Simulation**
 Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
 ### **Synthesis**
