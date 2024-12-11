@@ -32,9 +32,13 @@ Once the board was programmed and connected to the VGA port on the monitor, the 
 ## **My VGA Design Edit**
 ### **Code Adaptation**
 The verilog code below is what I adapted to alter the demo template to generate my own personal code, where I just wanted it to generate a simplistic Italian flag. I wanted to show some of my failed tests below:
+<img src=https://github.com/chloebeirne/Soc-Final-Project/blob/main/docs/assets/images/green.jpeg>
+
+This image above isn't at all complex as it seems to display, but it took me a long time to understand how to change from a cycle to cycle and how to make it fit on the display. I was able to create this code with the aid of my lecturer, Michelle Lynch, my class peers, and also online resources from our VLE and ChatGPT.
 
 ### **Simulation**
-Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
+I ran into quite a few issues when it came to my simulation each time I ran my design. A lot of the time, it would say that my simulation would not work due to no error, and then it also told me a few times that some of my code used was not declared, so I had to sift back over my code to see where my errors occurred.
+
 ### **Synthesis**
 Describe the synthesis & implementation outputs for your design, are there any differences to that of the original design? Guideline 1-2 short paragraphs.
 ### **Demonstration**
